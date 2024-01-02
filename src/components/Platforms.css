@@ -1,0 +1,52 @@
+.plat{
+    width: 200px;
+    height: 120px;
+    background-color: rgb(31, 31, 31);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-left: 10px;
+}
+.plat img{
+    width: 120px;
+    height: 50px;
+    padding: 0px 5px
+}
+video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 200px;
+    height: 120px;
+    z-index: 1;
+    visibility: hidden;
+    transition: all .2s ease-in-out;
+
+}
+.plat:hover video{
+    transform: scale(1.18);
+    visibility: visible;
+    
+}
+.rww{
+    display: flex;
+    overflow-x: auto;
+    overflow-y: hidden;
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+@media (max-width:600px) {
+    .plat img{
+        width: 120px;
+        height: 50px;
+    }
+    
+}

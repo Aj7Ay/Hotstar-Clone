@@ -1,0 +1,19 @@
+.nav{
+    width: 150px;
+    height: 100vh;
+    background-color: black;
+}
+i{
+    color: white;
+    margin-top: 50px;
+}
+.icons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 82vh;
+}
+.nav img{
+    width: 140px;
+}

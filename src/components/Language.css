@@ -1,0 +1,24 @@
+.rowj{
+    display: flex;
+    overflow-x: auto;
+    overflow-y: hidden;
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+    margin-top: 40px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+.rowj img{
+    width: 260px;
+    height: 140px;
+    margin-left: 10px;
+}
+.rowj img:hover{
+    transform: scale(1.13) ;
+
+}

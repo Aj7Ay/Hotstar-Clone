@@ -1,0 +1,42 @@
+.banner img{
+    width: 100%;
+    height: 630px;
+    object-fit: cover;
+    
+        
+    
+    
+}
+
+.bbc{
+    position: relative;
+   
+    
+    
+}
+
+.cc{
+   
+      
+     
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(to right ,black,rgba(255, 255, 255, 0),rgba(255, 255, 255, 0));
+    }
+    .black{
+        background-color: rgba(1, 7, 22, 0.923);
+        transition: ease-out 1s;
+        background-image: linear-gradient(to right  ,black,rgba(255, 255, 255, 0),rgba(255, 255, 255, 0));
+
+        
+    }
+    @media (max-width:600px) {
+        .banner img{
+            height: 300px;
+        }
+        
+    }
+    

@@ -1,0 +1,121 @@
+.aaa{
+  display: flex;
+  position: relative;
+}
+.rel{
+  position: relative;
+
+}
+.nnn{
+  width: 100%;
+  position: absolute;
+  top: 90vh;
+  z-index: 10;
+  position: fixed;
+  display: none;
+}
+.first{
+  width: 7%;
+  position: fixed;
+}
+.second{
+  width: 90%;
+  margin-left: 140px;
+  position: relative;
+  
+}
+.stick{
+  position: sticky;
+  top: 0;
+}
+.z{
+position: relative;
+background-color: rgb(1, 7, 22);
+margin-top: 20px;
+}
+.lg{
+  position: absolute;
+  top:5%;
+  left: 0;
+  padding-left: 20px;
+}
+.lg img{
+  width: 230px;
+  height: 160px;
+ 
+  
+}
+.lg h3{
+ 
+  color: rgb(255, 255, 255);
+}
+.lg span{
+  background-color: rgba(195, 195, 195, 0.523);
+  padding: 3px;
+  border-radius: 3px;
+}
+.lg p{
+  color: white;
+  width: 400px;
+  font-size: 1rem;
+  line-height: 20px;
+  margin-top: 30px;
+}
+.lg .btn{
+  width: 300px;
+  height: 45px;
+  background-color: rgba(220, 220, 220, 0.37);
+  border: 1px solid rgba(128, 128, 128, 0.581);
+  border-radius: 10px;
+  color: white;
+  font-size: 1.3rem;
+  margin-top: 40px;
+}
+.lg .bb{
+  width: 50px;
+  margin-left: 10px;
+}
+.lg .btn:hover{
+  transform: scale(1.04);
+
+}
+@media (max-width:600px) {
+  .first{
+    display: none;
+  }
+  .second{
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .lg .btn{
+    width: 150px;
+    height: 30px;
+    font-size: 1rem;
+    margin-top: 10px;
+  }
+  .lg .bb{
+    width: 30px;
+  }
+  .lg p{
+    display: none;
+  }
+  .lg img{
+    width: 110px;
+    height: 60px;
+   
+    
+  }
+  .lg{
+    position: absolute;
+    top:3%;
+    left: 0;
+    padding-left: 20px;
+  }
+  .lg h3{
+    font-size: 15px;
+  }
+  .nnn{
+    display: block;
+  }
+}
